@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    flex-direction:column;
+}
+main{
+    display:flex;
+    flex-direction:row;
+}
+div{
+    background:pink;
+}
+header{
+    background: grey;
+    height: 60px;
+}
+nav{
+    background: lightgrey;
+    height:40px;
+}
+footer{
+    background:grey;
+    height: 40px;
+}
