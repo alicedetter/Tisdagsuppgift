@@ -14,9 +14,25 @@ main{
     display:flex;
     flex-direction:row;
     flex-grow:1;
+    overflow-y:auto;
 }
-div{
+.info1{
+    width:300px;
+    padding:20px;
+}
+.info2{
+    width:400px;
+    padding:20px;
+}
+.info3{
+    width:400px;
+    padding:20px;
+}
+.image{
+    --background-image: url(shield.jpg);
+    --background-size: cover;
     background:pink;
+
 }
 header{
     background: grey;
@@ -32,6 +48,7 @@ nav{
     align-items:center;
     display:flex;
     padding:15px;
+    gap:10px;
 }
 nav a{
     color:rgb(0, 0, 0);
