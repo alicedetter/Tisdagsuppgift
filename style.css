@@ -16,6 +16,20 @@ main{
     flex-grow:1;
     overflow-y:auto;
 }
+.Charinfo1{
+    width:300px;
+    padding:20px;
+}
+.Charinfo2{
+    width:400px;
+    padding:20px;
+    margin-top:40px;
+}
+.Charinfo3{
+    width:400px;
+    padding:20px;
+    margin-top:40px;
+}
 .info1{
     width:300px;
     padding:20px;
